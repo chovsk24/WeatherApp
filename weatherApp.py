@@ -44,11 +44,11 @@ while locationCorrect == False:
       print(f'\nWeather for {place}: \n')                                      
       print(f'The current temperature in {place} is {temp}\u00b0\n')
       print(f'The current humidity in {place} is {humid}\u0025\n')
-      print(f'Sunrise in Holliston will be {formattedRise}.\n')
-      print(f'Sunset in Holliston will be {formattedSet}.\n')
+      print(f'Sunrise in {place} will be {formattedRise}.\n')
+      print(f'Sunset in {place} will be {formattedSet}.\n')
 
     elif int(weather['cod']) >=400:                                   
       locationCorrect = False
       print('Invalid city')
 
-close = input('Press any button to exit.') 
+close = input('Press any button to exit.')
